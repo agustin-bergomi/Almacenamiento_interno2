@@ -12,7 +12,7 @@
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter file name"
+        android:hint="Ingrese nombre del archivo"
         android:padding="10dp"
         android:inputType="textCapWords"
         android:layout_marginBottom="15dp" />
@@ -25,7 +25,7 @@
         android:minLines="5"
         android:maxLines="15"
         android:gravity="top|left"
-        android:hint="enter data"
+        android:hint="Ingrese contenido del archivo"
         android:padding="10dp"
         android:inputType="textMultiLine"
         android:layout_below="@id/editText1"
@@ -34,7 +34,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="save"
+        android:text="Guardar archivo"
         android:padding="5dp"
         android:background="@color/black"
         android:textStyle="bold"
@@ -47,7 +47,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Read"
+        android:text="Leer archivo"
         android:padding="5dp"
         android:background="@color/black"
         android:textStyle="bold"
@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text="File saves in internal memory"
+        android:text="guardar archivo en almacenamiento interno"
         android:layout_below="@id/button2"
         android:layout_centerHorizontal="true"/>
 
